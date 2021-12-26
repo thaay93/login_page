@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   
+}
+
+body{
+    font-weight: 500;
+    display: flex;
+    min-width: 100vh;
+}
+
+.main{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
+.social-media a:first-child img{
+    width: 33px;
+    margin-left: 0;
+}
+
+.social-media img{
+    width: 40px;
+    margin-left: 1.5em;
+}
+
+.social-media img:hover{
+    transform: scale(0.90);
+}
+
+.alternative{
+    margin-top: 1em;;
+}
+
+.alternative span{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    position: relative;
+}
+
+.alternative span::before, .alternative span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+}
+
+.alternative span::after{
+    left: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+}
+
+form label span{
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+    padding: 0 10px;
+    margin-top: 0.5em;
+    outline: none;
+    color: #DAF1F9;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+form input:hover{
+
+}
+
+form input[type= "submit"]{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 2em;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+}
+
+form input[type= "submit"]:hover{
+    border: none;
+    transform: scale(1.1);
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section img{
+    width: 450pxpx;
+}
+
+
+
