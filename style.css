@@ -141,7 +141,7 @@ section img{
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 870px){
    section{
        display: none;
    }
@@ -152,6 +152,7 @@ section img{
 
    h1{
        text-align: center;
+       font-size: 2em;
    }
 }
 
