@@ -4,11 +4,8 @@
     box-sizing: border-box;
 }
 
-:root{
-   
-}
-
 body{
+    background-color: #0A0C23;
     font-weight: 500;
     display: flex;
     min-width: 100vh;
@@ -25,6 +22,7 @@ body{
 h1{
     font-size: 3em;
     margin: 0.5em 0;
+    color:  #7D3DAD;
 }
 
 .social-media{
@@ -38,7 +36,7 @@ h1{
 }
 
 .social-media img{
-    width: 40px;
+    width: 45px;
     margin-left: 1.5em;
 }
 
@@ -55,6 +53,7 @@ h1{
     font-size: 1em;
     font-weight: 400;
     position: relative;
+    color: #DFC4F1;
 }
 
 .alternative span::before, .alternative span::after{
@@ -62,6 +61,7 @@ h1{
     content: '';
     height: 1px;
     width: 100px;
+    background-color: #7C3EAD;
     bottom: 50%;
     right: 50px;
 }
@@ -84,6 +84,7 @@ form label{
 form label span{
     font-size: 20px;
     margin-top: 1em;
+    color: #DFC4F1;
 }
 
 form input{
@@ -94,26 +95,30 @@ form input{
     outline: none;
     color: #DAF1F9;
     font-size: 15px;
+    background-color: #4C1B86;
     border: none;
     border-radius: 8px;
 }
 
 form input:hover{
-
+    border: 1px solid #7D3DAD;
 }
 
 form input[type= "submit"]{
     cursor: pointer;
     width: 50%;
     margin-top: 2em;
+    border: 2px solid #7D3DAD;
     border-radius: 30px;
     font-size: 18px;
+    color: #DFC4F1;
     background-color: transparent;
     transition: all .3s ease-in-out;
 }
 
 form input[type= "submit"]:hover{
     border: none;
+    background-color: #4C1B86;
     transform: scale(1.1);
 }
 
@@ -123,7 +128,31 @@ section {
 }
 
 section img{
-    width: 450pxpx;
+    width: 500px;
+    animation: flutuacao 10s ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+    0%, 100%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 750px){
+   section{
+       display: none;
+   }
+
+   body{
+       justify-content: center;
+   }
+
+   h1{
+       text-align: center;
+   }
 }
 
 
