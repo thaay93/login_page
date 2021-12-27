@@ -8,7 +8,7 @@ body{
     background-color: #0A0C23;
     font-weight: 500;
     display: flex;
-    min-width: 100vh;
+    min-width: 100%;
 }
 
 .main{
@@ -21,7 +21,7 @@ body{
 
 h1{
     font-size: 3em;
-    margin: 0.5em 0;
+    margin: 1em 0;
     color:  #7D3DAD;
 }
 
@@ -155,6 +155,8 @@ section img{
        font-size: 2em;
    }
 }
+
+
 
 
 
