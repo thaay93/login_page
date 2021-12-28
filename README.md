@@ -4,7 +4,7 @@
 <br>
 
 <p>Este projeto consiste na criação de uma página de login, tendo como objetivo a prática no desenvolvimento em HTML5, CSS3 e Responsividade.
-<p>Visite minha página do Github para conhecer o projeto: <a href="https://github.com/thaay93/login_page">GITHUB</a>.🥰🤩
+<p>Visite minha página do Github para conhecer o projeto: <a href="https://thaay93.github.io/login_page/">LOGIN_PAGE</a>.🥰🤩
 
 <h2> 💻 Versão Desktop </h2>
 <img src="asserts/Desktop.png">
