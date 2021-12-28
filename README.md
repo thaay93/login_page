@@ -3,8 +3,8 @@
 <h3 align="center">🚧🛠 Projeto, em contrução... 🚧</h3>
 <br>
 
-<p>Este projeto consiste na criação de uma página de login, tendo como objetivo a prática no desenvolvimento em HTML5, CSS e Responsividade.
-<p>Visite a página do Github para conhecer meu projeto: <a href=" https://thaay93.github.io/login_pag">PROJETO LOGIN_PAGE.🥰🤩 </a>
+<p>Este projeto consiste na criação de uma página de login, tendo como objetivo a prática no desenvolvimento em HTML5, CSS3 e Responsividade.
+<p>Visite minha página do Github para conhecer o projeto: <a href=" https://thaay93.github.io/login_pag">PROJETO LOGIN_PAGE.🥰🤩 </a>
 
 <h2> 💻 Versão Desktop </h2>
 <hr>
